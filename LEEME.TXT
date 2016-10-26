@@ -1,0 +1,98 @@
+
+Prof. Ivan R. Chenoweth 2011
+Esta distribución es 100% para fines didácticos y prácticos de:
+La Universidad Tecnológica de Hermosillo 2011
+http://www.uthermosillo.edu.mx
+
+Sistema de logueo "SimpleLoginSystemMasterDetail"
+Incluye:
+ - CRUD de Usuarios
+ - CRUD de Productos
+ - CRUD de Clientes
+ - CRUD de Proveedores
+ - Simple ACL: Usuarios (Admin, RegistredUser, Guest)
+ - Master-Detail Venta 
+ - Sistema Simple de logueo using sesiones.
+ - Prueba de unidad: "unitTestModeloUsuarios.php" usando phpunit framework.
+ - No contiene diseño gráfico, ni validación de datos.
+ - Tecnologías: Solo uso de: PHP-MYSQL-HTML-UML
+ 
+ Todas las clases han sido generadas desde ArgoUML atraves de los diagramas de clases, para exportarse como esqueleto y sincronizados con el código. 
+ Significa que, exportando el código de las clases, se puede continuar desarrollando dentro de los métodos.
+ Es decir, se está usando ingeniería de software directa, donde es portante respetar las directivas de ArgoUML directivas (begin-end) en los métodos. 
+ 
+ INSTALACION/CONFIGURACION:
+ Para instalarse solo se necesita:
+1.- Colocar los scrpits PHP "SimpleLoginSystemMasterDetail" disonibles en el servidor HTTP 
+2.- Crear una base de datos "loginsystem" en mysql.
+3.- Ejecutar el archivo "loginsystem.sql" en el servidor SQL.
+4.- Ingresar al sistema por el navegador
+5.- Para ingresar los usuarios predeterminados son: 
+Rol de administrador:
+   usuario:ivan
+   password:123
+Rol de usuario registrado:
+	usuario:dany
+	password:321
+
+
+COSAS POR HACER PARA LOS ALUMNOS:
+- Mensajes en la vista al ejecutar alguna acción.
+- Validación de las capturas y datos.
+- Agregar diseño gráfico
+- Restructurar los directorios (propuestas)
+- Registro autamático de usuarios con capcha via email.
+- Anexar facilitadores de :
+	Seleccionador de fechas
+	Seleccionador de colores
+	Seleccionador de registros
+- Anexar algun Javascript Frameworks para AJAX
+- 
+	
+	
+NOTA: Esta distribución APACHE-PHP-MYSQL no se instala solo se copia a la raiz
+Pasos de Configuración y Arranque:
+1.- Copiar XAMPPLITE a la raiz de la unidad lógica ej: C:\
+Para que funcione correctamente phpunit y phpDocumentator:
+2.- Incluir en la variable de entorno PATH la carpeta \xampplite\php;
+
+
+Incluye varias aplicaciones portables configuradas.
+CONTENIDO:
+1.- XAMPPLITE para windows  version 1.7.3 (descrito hasta abajo de este documento): +
+- Xdebug para ser operada desde eclipse php
+- Phpunit
+- PHPDocumentator
+
+2.- Tools used in the developing:
+- IDE Eclipse with PDT
+- FTPserver: FileZillaFTP (FTP Server)
+- FileManager totalcommander (FTP Client, compressor/decompressor ... etc.)
+- X-RapidSVN (SVN Client)
+- ArgoUML CASE tool.
+
+Usuarios y Claves preconfiguradas en myslq:
+root
+123456
+
+---------------------------------
+Basada en el paquete de distribución xampplite 
+www.apachefriends.org
+###### Apache Friends XAMPP Lite (Basis Package) version 1.7.3 ######
+  + Apache 2.2.14 (IPV6 enabled)
+  + MySQL 5.1.41 (Community Server) with PBXT engine 1.0.09-rc
+  + PHP 5.3.1 (PEAR)
+  + Miniperl 5.10.1
+  + XAMPP Control Version 2.5.8 (ApacheFriends Edition)
+  + XAMPP CLI Bundle 1.6
+  + XAMPP Port Check 1.5
+  + XAMPP Security 1.1
+  + SQLite 2.8.17
+  + SQLite 3.6.20
+  + OpenSSL 0.9.8l
+  + phpMyAdmin 3.2.4
+  + msmtp 1.4.19 (a sendmail compatible SMTP client)
+  + Webalizer 2.21-02 (with GeoIP lite)
+  + Ming 0.4.3 for PHP
+  + PDF with pdflib lite v7.0.4p4 for PHP
+----------------------------------

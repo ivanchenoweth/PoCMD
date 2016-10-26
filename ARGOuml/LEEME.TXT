@@ -1,0 +1,9 @@
+
+Prof. Ivan R. Chenoweth 2011
+Esta distribución es 100% para fines didácticos prácticos de:
+La Universidad Tecnológica de Hermosillo 2011
+http://www.uthermosillo.edu.mx
+
+Sistema de logueo "SimpleLoginSystemMasterDetail"
+
+Abrir el archivo con ARGOUML
